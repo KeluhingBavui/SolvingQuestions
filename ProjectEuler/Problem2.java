@@ -11,7 +11,7 @@ package ProjectEuler;
 
 public class Problem2 {
     public static void main(String[] args) {
-      int fnext=0,fprevious=2,fprevious2=1,i=1,sum=2; //Declare some variables
+      int fnext=0,fprevious=2,fprevious2=1,sum=2; //Declare some variables
       while (fnext<4000000) {
         fnext=fprevious+fprevious2; //Get the current fib no. for this term
         fprevious2 = fprevious; //Update the new previous term for current fib no.
@@ -19,7 +19,6 @@ public class Problem2 {
         if (fnext%2==0) {
           sum = sum + fnext;
         }
-        i++;
       }
       System.out.println(sum);
     }
