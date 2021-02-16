@@ -111,6 +111,7 @@ public class Equals18 {
         if (hasSolution==false) {
             System.out.println("No solution");
         }
+        in.close();
     }
     
     /*This is so far a workable solution I can find that gave the same output to
