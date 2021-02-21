@@ -7,7 +7,7 @@ package ProjectEuler;
 
 public class Problem5 {
   public static void main(String[] args) {
-    int target=1;
+    int target=20;
     while(true) {
       int count=0;
       for (int i = 1; i <= 20; i++) {
